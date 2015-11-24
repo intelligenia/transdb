@@ -8,7 +8,7 @@ This package was created by msaelices@gmail.com and was hosted in
 https://code.google.com/p/transdb/ but in recent versions of
 Django (1.5 and later) stopped working.
 
-intelligenia has made a branch with the aim of supporting a up-to-date
+intelligenia has made a branch with the aim of supporting an up-to-date
 version of this package.
 
 INSTALLATION
