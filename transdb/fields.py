@@ -85,6 +85,8 @@ class TransField(models.Field):
         return result
 
     def get_db_prep_save(self, value, connection):
+        if value is None:
+            return value
         value = [u"'%s': '''%s'''" % (k, v) for k, v in value.raw_data.items()]
         value = u'{%s}' % u','.join(value)
         value = smart_str(value)
